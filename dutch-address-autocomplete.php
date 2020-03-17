@@ -12,7 +12,7 @@ WC tested up to: 3.9.0
 
 defined('ABSPATH') or die('You are not authorised to view this page!');
 
-require_once( dirname( __FILE__ ) .'/class.sample-address-autocomplete-table.php' );
+require_once( dirname( __FILE__ ) .'/class.dutch-address-autocomplete-table.php' );
 require_once( dirname( __FILE__ ) .'/admin.php' );
 
 class DutchAddressAutocomplete
