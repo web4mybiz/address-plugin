@@ -1,18 +1,18 @@
 <?php
 /*
-Plugin Name: Dutch Address Autocomplete
-Plugin URI: http://onlinemarketingagency.eu/
+Plugin Name: Sample Address Autocomplete
+Plugin URI: https://github.com/web4mybiz/
 Description: Address plugin with auto fill feature for Netherlands.
-Author: Online Marketing Agency
+Author: Rizwan
 Version: 1.0
-Author URI: http://onlinemarketingagency.eu/
-Text Domain: dutch-address-autocomplete
+Author URI: https://github.com/web4mybiz/
+Text Domain: sample-address-autocomplete
 WC tested up to: 3.9.0
 */
 
 defined('ABSPATH') or die('You are not authorised to view this page!');
 
-require_once( dirname( __FILE__ ) .'/class.dutch-address-autocomplete-table.php' );
+require_once( dirname( __FILE__ ) .'/class.sample-address-autocomplete-table.php' );
 require_once( dirname( __FILE__ ) .'/admin.php' );
 
 class DutchAddressAutocomplete
