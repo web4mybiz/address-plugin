@@ -1,0 +1,68 @@
+p.success_billing_address, p.success_shipping_address{
+	background: rgba(0, 255, 0, 0.08) none repeat scroll 0 0;
+	border: 1px solid green;
+	clear: both;
+	color: #333;
+	font-size: 0.97em;
+	font-weight: 400;
+	padding: 0.35em 0.75em;
+	margin-bottom: 22px !important;
+}
+#billing_address_2_field,#shipping_address_2_field{
+	display:none !important;
+}
+#billing_address_2_1_field, #billing_postcode_field{
+    width: 39%;
+    position: relative;
+    clear: none;
+	margin-right: 5px;
+	float:left;
+}
+
+#billing_address_3_field{
+	width: 20%;
+	position: relative;
+    clear: none;
+	margin-right: 1px;
+	float:left;
+} 
+
+#shipping_address_2_1_field, #shipping_postcode_field{
+    width: 39%;
+    position: relative;
+    clear: none;
+	margin-right: 5px;
+	float:left;
+}
+
+#shipping_address_3_field{
+	width: 20%;
+	position: relative;
+    clear: none;
+	margin-right: 1px;
+	float:left;
+} 
+
+#order_comments_field{
+	clear:both;
+}
+@media only screen and (min-width: 850px) and (max-width: 1023px) {
+	#billing_address_2_1_field, #billing_postcode_field,#shipping_address_2_1_field, #shipping_postcode_field{
+		width: 38.9%;
+	}
+	#shipping_address_3_field,#billing_address_3_field{
+		width: 19%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#billing_address_2_1_field, #billing_postcode_field,#shipping_address_2_1_field, #shipping_postcode_field{
+		width: 38.5%;
+	}
+	#shipping_address_3_field,#billing_address_3_field{
+		width: 19.5%;
+	}
+	#billing_address_1_field,#shipping_address_1_field{
+		clear:both;
+	}
+}
